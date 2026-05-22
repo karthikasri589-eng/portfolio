@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karthikasri S | AI Engineer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="preloader" class="preloader">
+    <div class="loader-ring"></div>
+    <p>Loading the future...</p>
+  </div>
+
+  <div class="cursor" id="cursor"></div>
+  <canvas id="particleCanvas"></canvas>
+
+  <div class="site-shell">
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark">KS</span>
+        <div>
+          <p>karthikasri.s</p>
+          <small>AI + Python + Robotics</small>
+        </div>
+      </div>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#journey">Journey</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="hero">
+        <div class="hero-grid">
+          <div class="hero-copy reveal-up">
+            <span class="eyebrow">Next-gen AI Engineer</span>
+            <h1>Karthikasri <span>S</span></h1>
+            <p class="hero-title">Python Developer • Vibe Coder • Gen AI Builder • Robotics Student</p>
+            <div class="typing-box">
+              <span>Building</span>
+              <span id="typed-text" class="typed-text"></span>
+              <span class="cursor-blink">|</span>
+            </div>
+            <p class="hero-description">I build smart AI systems, intelligent chatbots, automation workflows, and futuristic tech experiences using Python, Generative AI, and robotics concepts.</p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">View Projects</a>
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+              <a href="#contact" class="btn btn-tertiary">Download Resume</a>
+            </div>
+            <div class="hero-stats">
+              <div><span>12+</span><small>AI Systems</small></div>
+              <div><span>8+</span><small>Chatbots</small></div>
+              <div><span>5</span><small>Robotics Experiments</small></div>
+            </div>
+          </div>
+
+          <div class="hero-panel reveal-right">
+            <div class="panel-topline">
+              <div></div><div></div><div></div>
+            </div>
+            <div class="panel-content">
+              <div class="panel-header">
+                <div>
+                  <p>AI Terminal</p>
+                  <small>Realtime simulation</small>
+                </div>
+                <span class="status-pill">ACTIVE</span>
+              </div>
+              <div class="code-block">
+                <code>python</code>
+                <pre>from ai_core import ChatAgent
+
+agent = ChatAgent(name="Bamy AI")
+agent.train(dataset="conversational_intents")
+agent.deploy(target="web")
+
+if agent.ready():
+  agent.chat()</pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="section-intro reveal-up">
+          <span class="section-label">About Me</span>
+          <h2>Crafting intelligent experiences with code, AI, and robotics.</h2>
+        </div>
+        <div class="about-grid">
+          <div class="glass-card reveal-left">
+            <p>Karthikasri is a passionate Python developer and creative vibe coder focused on building AI-powered applications, chatbot systems, automation workflows, and futuristic software experiences. As a Mechatronics & Robotics student, he combines software intelligence with innovation to create impactful technology projects.</p>
+            <div class="about-highlights">
+              <span>AI-first development</span>
+              <span>Generative design systems</span>
+              <span>Robotics & automation fusion</span>
+            </div>
+          </div>
+          <div class="about-visual reveal-right">
+            <div class="glass-card visual-card">
+              <div class="visual-label">AI Insight</div>
+              <div class="visual-line"></div>
+              <div class="visual-pill">Neural inference</div>
+              <p>Optimizing workflows with Python and smart automation for high-performance systems.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills-section" id="skills">
+        <div class="section-intro reveal-up">
+          <span class="section-label">Skills</span>
+          <h2>Core tools and futuristic capabilities</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card reveal-up"><span class="skill-icon">🐍</span><h3>Python</h3><p>Expert scripting and AI pipelines</p></div>
+          <div class="skill-card reveal-up"><span class="skill-icon">⚡</span><h3>Flask</h3><p>Rapid backend APIs and web services</p></div>
+          <div class="skill-card reveal-up"><span class="skill-icon">🌐</span><h3>APIs</h3><p>Restful integrations & automation bridges</p></div>
+          <div class="skill-card reveal-up"><span class="skill-icon">🤖</span><h3>Generative AI</h3><p>Creative model-driven experiences</p></div>
+          <div class="skill-card reveal-up"><span class="skill-icon">💡</span><h3>Prompt Engineering</h3><p>Optimized AI prompting for clarity</p></div>
+          <div class="skill-card reveal-up"><span class="skill-icon">🗨️</span><h3>Chatbot Dev</h3><p>Conversational intelligence systems</p></div>
+          <div class="skill-card reveal-up"><span class="skill-icon">⚙️</span><h3>AI Automation</h3><p>Smart workflows and orchestration</p></div>
+          <div class="skill-card reveal-up"><span class="skill-icon">🔗</span><h3>n8n</h3><p>Workflow automation & integrations</p></div>
+          <div class="skill-card reveal-up"><span class="skill-icon">🦾</span><h3>Robotics</h3><p>Hardware-aware intelligent systems</p></div>
+          <div class="skill-card reveal-up"><span class="skill-icon">📐</span><h3>Mechatronics</h3><p>Mechanical-electrical product design</p></div>
+          <div class="skill-card reveal-up"><span class="skill-icon">🌲</span><h3>Git & GitHub</h3><p>Version control and modern workflows</p></div>
+          <div class="skill-card reveal-up"><span class="skill-icon">🎨</span><h3>UI/UX</h3><p>Modern interfaces with polished interaction</p></div>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="projects">
+        <div class="section-intro reveal-up">
+          <span class="section-label">Featured Projects</span>
+          <h2>Premium AI, chatbot, and robotics creations.</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card reveal-up">
+            <img src="assets/bamy_ai.png" alt="Bamy AI" loading="lazy" />
+            <div class="project-content">
+              <span>AI Chat Assistant</span>
+              <h3>Bamy AI</h3>
+              <p>AI-powered chatbot assistant with intelligent conversations and smart AI responses.</p>
+              <div class="project-meta"><span>Python • NLP • Flask • LangChain</span></div>
+              <div class="project-actions">
+                <a href="#" class="btn-small">GitHub</a>
+                <a href="#" class="btn-small btn-outline">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal-up">
+            <img src="assets/resume_analyzer.png" alt="Resume Analyzer" loading="lazy" />
+            <div class="project-content">
+              <span>AI Resume Tool</span>
+              <h3>Resume Analyzer</h3>
+              <p>AI tool that analyzes resumes and generates automated insights and feedback.</p>
+              <div class="project-meta"><span>Python • Flask • AI • UX</span></div>
+              <div class="project-actions">
+                <a href="#" class="btn-small">GitHub</a>
+                <a href="#" class="btn-small btn-outline">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal-up">
+            <div class="project-preview delegate"></div>
+            <div class="project-content">
+              <span>Agent Systems</span>
+              <h3>Multi-Agent AI System</h3>
+              <p>Collaborative AI agents working together for automation and task execution.</p>
+              <div class="project-meta"><span>Python • Automation • Agents • AI</span></div>
+              <div class="project-actions">
+                <a href="#" class="btn-small">GitHub</a>
+                <a href="#" class="btn-small btn-outline">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal-up">
+            <div class="project-preview robot"></div>
+            <div class="project-content">
+              <span>Robotics Fusion</span>
+              <h3>Robotics + AI Projects</h3>
+              <p>Experimental robotics and intelligent automation combining hardware and AI.</p>
+              <div class="project-meta"><span>Mechatronics • Python • IoT • AI</span></div>
+              <div class="project-actions">
+                <a href="#" class="btn-small">GitHub</a>
+                <a href="#" class="btn-small btn-outline">Live Demo</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section journey-section" id="journey">
+        <div class="section-intro reveal-up">
+          <span class="section-label">Experience</span>
+          <h2>The journey from code to intelligent systems.</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item reveal-left">
+            <span>Started learning Python</span>
+            <p>Foundation built with Python and algorithmic thinking.</p>
+          </div>
+          <div class="timeline-item reveal-right">
+            <span>Built first chatbot</span>
+            <p>Created conversational agents and interactive prototypes.</p>
+          </div>
+          <div class="timeline-item reveal-left">
+            <span>Entered Generative AI</span>
+            <p>Explored model-driven creativity and intelligent content systems.</p>
+          </div>
+          <div class="timeline-item reveal-right">
+            <span>Created automation workflows</span>
+            <p>Designed scalable flows for efficiency using modern tools.</p>
+          </div>
+          <div class="timeline-item reveal-left">
+            <span>Developed Bamy AI</span>
+            <p>Built a premium AI conversation assistant for real-world use.</p>
+          </div>
+          <div class="timeline-item reveal-right">
+            <span>Learning robotics & intelligent systems</span>
+            <p>Combining hardware and software for future-ready systems.</p>
+          </div>
+          <div class="timeline-item reveal-left">
+            <span>Future AI innovations</span>
+            <p>Driving next-generation experiences through intelligent design.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section stats-section" id="stats">
+        <div class="stats-grid">
+          <div class="stat-card reveal-up"><span>24</span><p>AI Projects Built</p></div>
+          <div class="stat-card reveal-up"><span>16</span><p>Chatbots Developed</p></div>
+          <div class="stat-card reveal-up"><span>12</span><p>Automation Workflows</p></div>
+          <div class="stat-card reveal-up"><span>3+</span><p>Years Coding Experience</p></div>
+          <div class="stat-card reveal-up"><span>20+</span><p>Technologies Learned</p></div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="section-intro reveal-up">
+          <span class="section-label">Contact</span>
+          <h2>Let's build the next intelligent experience.</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="glass-card contact-card reveal-left">
+            <h3>Reach out</h3>
+            <p>Ready to collaborate on AI systems, chatbots, or robotics innovation? Let's make the future together.</p>
+            <div class="contact-links">
+              <a href="https://github.com/karthikasri589-eng" target="_blank">GitHub</a>
+              <a href="https://www.linkedin.com/in/karthikasri-s-166ab840b/" target="_blank">LinkedIn</a>
+              <a href="mailto:hello@karthikasri.ai">Email</a>
+              <a href="https://instagram.com/" target="_blank">Instagram</a>
+            </div>
+          </div>
+          <form class="glass-card contact-form reveal-right">
+            <label><span>Name</span><input type="text" placeholder="Your name" /></label>
+            <label><span>Email</span><input type="email" placeholder="your@email.com" /></label>
+            <label><span>Message</span><textarea rows="5" placeholder="Tell me about your idea..."></textarea></label>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Terminal • /home/karthikasri/portfolio <span class="footer-highlight">Ready for innovation.</span></p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
